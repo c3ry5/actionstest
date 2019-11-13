@@ -1,7 +1,5 @@
-name: SonarQubeC3ry5
-
+name: SonarQube
 on: push
-name: Main Workflow
 jobs:
   sonarCloudTrigger:
     name: SonarCloud Trigger
