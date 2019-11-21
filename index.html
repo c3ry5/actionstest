@@ -1,0 +1,5 @@
+<a href="http://dangerouswebsite.com" target="_blank"> <!-- Noncompliant; "window.opener" will be not null on the new tab/window and can be changed by http://dangerouswebsite.com -->
+
+<a href="http://dangerouswebsite.com" target="_blank" rel="noopener"> <!-- Noncompliant; will not prevent the attack on old browsers -->
+
+<a href="{{variable}}" target="_blank" rel="noopener"> <!-- Noncompliant  -->
